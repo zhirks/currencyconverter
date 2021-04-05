@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Currency Converter">
+	<test name="Regression Testing">
+		<classes>
+			<class name="currency.converter.testcases.Test_001_VerifyCurrencyExchangeCalculatorPageDisplay" />
+			<class name="currency.converter.testcases.Test_002_VerifyCountryChangeDisplay" />
+			<class name="currency.converter.testcases.Test_003_VerifyCurrencyConversion" />
+		</classes>
+	</test>
+</suite>

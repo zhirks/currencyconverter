@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17105" started-at="2021-04-05T02:31:32 EDT" finished-at="2021-04-05T02:31:49 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17105" started-at="2021-04-05T02:31:32 EDT" finished-at="2021-04-05T02:31:49 EDT">
+      <class name="currency.converter.testcases.Test_003_VerifyCurrencyConversion">
+        <test-method status="PASS" signature="setup()[pri:0, instance:currency.converter.testcases.Test_003_VerifyCurrencyConversion@34cd072c]" name="setup" is-config="true" duration-ms="12660" started-at="2021-04-05T02:31:32 EDT" finished-at="2021-04-05T02:31:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyConversionRateDifference()[pri:1, instance:currency.converter.testcases.Test_003_VerifyCurrencyConversion@34cd072c]" name="verifyConversionRateDifference" duration-ms="3704" started-at="2021-04-05T02:31:45 EDT" finished-at="2021-04-05T02:31:48 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConversionRateDifference -->
+        <test-method status="PASS" signature="exitBrowser()[pri:0, instance:currency.converter.testcases.Test_003_VerifyCurrencyConversion@34cd072c]" name="exitBrowser" is-config="true" duration-ms="703" started-at="2021-04-05T02:31:48 EDT" finished-at="2021-04-05T02:31:49 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- currency.converter.testcases.Test_003_VerifyCurrencyConversion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
