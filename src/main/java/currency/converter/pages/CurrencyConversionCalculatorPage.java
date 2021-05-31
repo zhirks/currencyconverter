@@ -33,12 +33,6 @@ public class CurrencyConversionCalculatorPage extends TestBase {
 	@FindBy(xpath = "//label[@class='ng-binding'][contains(text(),'Sell')]")
 	WebElement sellLabel;
 
-	/*
-	 * @FindBy(xpath =
-	 * "//div[@class='form-group'][1]/input[@class='form-control ng-pristine ng-untouched ng-valid ng-not-empty']"
-	 * ) WebElement sellInputField;
-	 */
-
 	@FindBy(xpath = "//div[@class='form-group'][1]/div[@class='ui-select-container ui-select-bootstrap dropdown ng-valid ng-not-empty']")
 	WebElement sellCurDropdown;
 
@@ -148,22 +142,6 @@ public class CurrencyConversionCalculatorPage extends TestBase {
 		double swedBankAmount = Double.parseDouble(swedBank);
 		Boolean swedBankFlag = driver.findElement(By.xpath("//tbody/tr['" + i + "']/td[5]/span/span/span[2]"))
 				.isDisplayed();
-
-		/*
-		 * String citadele =
-		 * driver.findElement(By.xpath("//tbody/tr['"+i+"']/td[7]/span/span/span[1]")).
-		 * getText(); double citadeleAmount = Double.parseDouble(citadele); Boolean
-		 * citadeleFlag =
-		 * driver.findElement(By.xpath("//tbody/tr['"+i+"']/td[7]/span/span/span[2]")).
-		 * isDisplayed();
-		 * 
-		 * String luminor =
-		 * driver.findElement(By.xpath("//tbody/tr['"+i+"']/td[8]/span/span/span[1]")).
-		 * getText(); double luminorAmount = Double.parseDouble(luminor); Boolean
-		 * luminorFlag =
-		 * driver.findElement(By.xpath("//tbody/tr['"+i+"']/td[8]/span/span/span[2]")).
-		 * isDisplayed();
-		 */
 
 		if ((payseraAmount - swedBankAmount) > 0) {
 			return swedBankFlag;
